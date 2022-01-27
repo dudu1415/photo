@@ -10,8 +10,7 @@
 <body>
     <form action="/document" method="post" enctype="multipart/form-data">
     @csrf
-    <input type="file" name="file"
-    accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+    <input type="file" name="file">
     <button type="submit">Enviar</button>
 </form>
 </body>
