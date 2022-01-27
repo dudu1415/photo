@@ -14,14 +14,14 @@ class ExerciseController extends Controller
 
     public function images(Request $request){
 
-        $request->images1->storeAs('public/images','file1.jpg');
-        $request->images2->storeAs('public/images','file2.jpg');
+        $request->image1->storeAs('public/images','file1.jpg');
+        $request->image2->storeAs('public/images','file2.jpg');
         return "Deu certo 2";
     }
 
     public function documents(Request $request){
 
-        $request->documents->storeAs('public/documents','documents');
+        $request->file->storeAs('public/documents','file');
         return "Deu certo 3";
     }
 
