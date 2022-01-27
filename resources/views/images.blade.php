@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="/images1" method="post" enctype="multipart/form-data">
+    <form action="/images" method="post" enctype="multipart/form-data">
     @csrf
     <input type="file" name="image1">
     <input type="file" name="image2">
