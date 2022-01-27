@@ -16,4 +16,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('wellcome');
 });
+Route::get('/images', function () {
+    return view('images');
+});
+Route::get('/document', function () {
+    return view('documents');
+});
+Route:
+
 Route::post('/photo', [ExerciseController::class, 'photo']);
+Route::post('/images', [ExerciseController::class, 'images']);
+Route::post('/document', [ExerciseController::class, 'documents']);
