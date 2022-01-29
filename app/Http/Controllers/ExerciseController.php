@@ -19,7 +19,7 @@ class ExerciseController extends Controller
         return "Deu certo 2";
     }
 
-    public function documents(Request $request){
+    public function document(Request $request){
 
         $request->file->storeAs('public/documents','file');
         return "Deu certo 3";

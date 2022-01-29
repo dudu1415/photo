@@ -26,4 +26,4 @@ Route:
 
 Route::post('/photo', [ExerciseController::class, 'photo']);
 Route::post('/images', [ExerciseController::class, 'images']);
-Route::post('/document', [ExerciseController::class, 'documents']);
+Route::post('/document', [ExerciseController::class, 'document']);
